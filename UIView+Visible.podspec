@@ -19,11 +19,12 @@ Pod::Spec.new do |s|
   s.author           = { "Guillaume Cerquant" => "gcerquant@ekito.fr" }
   s.source           = { :git => "https://github.com/Ekito/UIView-Visible.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/ekito'
+  
+  s.homepage         = 'http://www.ekito.fr'
 
   s.platform     = :ios, '5.0'
   s.requires_arc = true
 
   s.source_files = 'Classes/ios/*.{h,m}'
-  s.resources = 'Assets/*.png'
 
 end
