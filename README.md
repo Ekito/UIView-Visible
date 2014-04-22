@@ -8,14 +8,16 @@
 UIView+Visible is a category that adds a `visible` property to the `UIView` class.  
 
 
-## Requirements
-
 ## Installation
 
 UIView+Visible is available through [CocoaPods](http://cocoapods.org), to install
 it simply add the following line to your Podfile:
 
     pod "UIView+Visible"
+    
+Then, import the category where you need it: `#import "UIView+Visible.h"`
+
+You can now know use the getter `isVisible` and setter `visible` on an `UIView` instance.
 
 ## Author
 
