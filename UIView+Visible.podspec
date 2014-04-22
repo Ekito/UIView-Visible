@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
                        DESC
   s.license          = 'MIT'
   s.author           = { "Guillaume Cerquant" => "gcerquant@ekito.fr" }
-  s.source           = { :git => "https://github.com/Ekito/UIView+Visible.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/Ekito/UIView-Visible.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/ekito'
 
   s.platform     = :ios, '5.0'
