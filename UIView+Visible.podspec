@@ -23,10 +23,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '5.0'
   s.requires_arc = true
 
-  s.source_files = 'Classes'
+  s.source_files = 'Classes/ios/*.{h,m}'
   s.resources = 'Assets/*.png'
-
-  s.ios.exclude_files = 'Classes/osx'
-  # s.osx.exclude_files = 'Classes/ios'
 
 end
