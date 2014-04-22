@@ -1,5 +1,5 @@
 # UIView+Visible CHANGELOG
 
-## 0.1.0
+## 1.0
 
 Initial release.

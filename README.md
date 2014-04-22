@@ -5,7 +5,8 @@
 
 ## Usage
 
-To run the example project; clone the repo, and run `pod install` from the Example directory first.
+UIView+Visible is a category that adds a `visible` property to the `UIView` class.  
+
 
 ## Requirements
 
@@ -18,7 +19,7 @@ it simply add the following line to your Podfile:
 
 ## Author
 
-Guillaume Cerquant, guillaume@macmation.com
+Guillaume Cerquant, gcerquant@ekito.fr
 
 ## License
 
